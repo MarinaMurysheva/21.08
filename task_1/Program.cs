@@ -6,10 +6,12 @@ int number2= Convert.ToInt32 (Console.ReadLine());
 
 if (number1 > number2)
 {
-    Console.WriteLine("первое число больше второго");
+    Console.Write ("max = ");
+    Console.Write (number1);
 }
     
 if (number2 > number1)
 {
-    Console.WriteLine("второе число больше первого");
+    Console.Write ("max = ");
+    Console.Write (number2);
 }
